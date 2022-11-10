@@ -1,0 +1,59 @@
+.vagas {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.vagas__titulo {
+    color: var(--preto);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.vagas__item {
+    border: 1px solid var(--cinza-box);
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.vagas__item-descricao {
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.vagas__item-titulo {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.vagas__item-hora, .vagas__item-salario {
+    font-weight: 500;
+    color: var(--cinza-azul);
+}
+
+@media screen and (min-width: 1024px) {
+    .vagas {
+        align-items: flex-start;
+        text-align: start;
+        padding: 0 15rem;
+    }
+
+    .vagas__item {
+        padding-right: 15rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+        .vagas__item {
+        padding-right: 40rem;
+    }
+}

@@ -1,0 +1,31 @@
+@import url(./contents/navbar.css);
+@import url(./contents/botao.css);
+@import url(./contents/sobre.css);
+@import url(./contents/metricas.css);
+@import url(./contents/talentos.css);
+@import url(./contents/vagas.css);
+@import url(./contents/depoimentos.css);
+@import url(./contents/formulario.css);
+
+:root {
+    --branco: #FFFFFF;
+    --branco-azul: #F9FAFB;
+    --branco-cinza: #D0D5DD;
+    --bege: rgba(142, 36, 36, 0.05);
+    --cinza-box: #EAECF0;
+    --cinza-claro: #98A2B3;    
+    --cinza-azul: #667085;
+    --cinza-escuro: #3A404E;
+    --preto: #101828;
+    --vinho: #8E2424;
+
+}
+
+body {
+    background-color: var(--branco);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
